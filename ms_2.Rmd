@@ -1,0 +1,14 @@
+---
+title: "Milestone 2"
+author: "Jacob Hansen"
+date: "2/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The first project I explored was Michelle Gao's "Performance of Political Ads on Google." Her project is a fascinating look at what will be an increasingly relevant topic for campaigns and American elections writ large for years to come. One "pro" of this project is the simplicity of its design: it plots two unique but ostensibly related variables against one another and finds an apparent, albeit a bit messy, relationship between the two. One "con" of this project is its sample size; while the "Full Model" graphic ("Ad Spending vs. Poll Results") offers several data points, there is too little variation across time and candidates for any conclusions beyond "candidates spending more increases their poll numbers"; the posited relationship offered between candidate name recognition and ad spending effectiveness cannot be proven (though the author does not claim it can). Another con is that the Full Model graphic features data points that are not independent; that is, there appears to be several data points for each candidate over time. Perhaps this would have been better illustrated by color, which could have then offered candidate-specific best fit lines.
+
+The second project I explored was Elizabeth Guo's "Demographics and Votes of the U.S. Supreme Court." Her project is a new take on the question of judicial politicization with the surprising conclusion that Court demographics--including partisanship--cannot predict votes. One "pro" of this project is its ingenuity; oftentimes the question of judicial polarization is reduced to party affiliation or a question of which president nominated which justice, but this project also considers demographic information (which must have been difficult to parse) and, somewhat shockingly, finds that neither is more predictive than the other. This new take offers more interesting conclusions than if she had just plotted partisanship against votes. One "con" of this project is that it is very difficult to distinguish between controversial and non-controversial votes; that is, many decisions made by the Court are relatively clear-cut according to current law, and get unanimous or near-unanimous votes whether that clear-cut decision is "conservative" or "liberal." On one hand, this might be considered selecting on the dependent variable--why is it interesting to select only polarized cases and expect a polarized outcome? On the other hand, the question of Supreme Court Justices being "politicians in robes" stems from their decisions on legitimate constitutional questions, not those that are clear-cut.
